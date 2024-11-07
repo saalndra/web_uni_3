@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нотатник</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h2>Нотатник</h2>
+        <textarea id="noteInput" placeholder="Введіть нотатку"></textarea><br>
+        <button id="saveButton">Зберегти нотатку</button>
+        <div id="notesContainer"></div>
+    </div>
+
+    <!-- Firebase конфігурація -->
+    <script type="module" src="firebase-config.js"></script>
+    <!-- Основний скрипт додатка -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
